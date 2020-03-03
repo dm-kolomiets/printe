@@ -1,0 +1,179 @@
+@media (max-width: 1866px) {
+    .call {
+        right: 144px;
+    }
+}
+
+@media (max-width: 1686px) {
+    .call {
+        right: 93px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .call {
+        right: 47px;
+    }
+}
+
+@media (max-width: 1478px) {
+    .foot-call {
+        bottom: -48px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .header-main, .header-nav ul {
+        flex-wrap: wrap;
+    }
+
+    .header-nav ul > li {
+        border: 0;
+    }
+
+    .shop{
+        padding-right: 45px;
+    }
+
+    .shop span {
+        right: 25px;
+    }
+
+    .contact {
+        text-align:left;
+    }
+
+    .contact .tel {
+        text-align: left;
+    }
+
+    .contact .tel::after {
+        right: 29px;
+    }
+
+    .footer-wrapp {
+        flex-wrap: wrap;
+    }
+
+    .contact .glyanec {
+        padding-right: 27px;
+    }
+}
+
+@media (max-width: 1185px) {
+    .header-main, .header-nav ul {
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .header-nav ul > li {
+        margin-bottom: 20px;
+        padding-top: 2px;
+    }
+}
+
+@media (max-width: 1049px) {
+    .header-main, .header-nav ul, .footer-wrapp {
+        flex-direction: column;
+    }
+
+    .header-main .text {
+        flex-basis: 68px;
+    }
+
+    .cabinet .facebook {
+        top: -6px;
+        right: -21px;
+    }
+
+    .communication {
+        flex-basis: 64px;
+    }
+
+    .header-nav ul > li {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .header-main > div,
+    .footer-wrapp > div
+     {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-wrapp .text {
+        text-align: center;
+        flex-basis: 74px;
+    }
+
+    .footer-wrapp .navigation {
+        text-align: center;
+    }
+
+    .footer-wrapp .info {
+        text-align: center;
+    }
+
+    .footer-wrapp .info {
+        padding-right: 0;
+    }
+
+    .footer-wrapp .info::after {
+        right: -8px;
+        top: -7px;
+    }
+
+    .footer-wrapp .contact {
+        text-align: center;
+    }
+
+    .contact .tel {
+        padding-left: 50px;
+    }
+
+    .contact .tel::before {
+        left: 19px;
+    }
+
+    .cabinet a {
+        padding: 0;
+    }
+
+    .cabinet a::before {
+        left: -28px;
+    }
+
+    .communication .telephone::before {
+        left: -29px;
+    }
+
+    .communication .telephone {
+        padding-left: 0;
+    }
+
+    .footer-wrapp .logo span {
+        text-align: center;
+    }
+
+    .all-products, .articles {
+        flex-wrap: wrap;
+    }
+
+    .all-products > div,
+    .articles > div {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    } 
+
+    .about p {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media (max-width: 567px) {
+    .call {
+        right: 0;
+        bottom: 30px;
+    }
+} 
